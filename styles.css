@@ -92,21 +92,25 @@ button {
 .imgdesc {
     display: flex;
     flex-direction: row;
+    gap: 32px;
 }
 
 .imgdescdesc {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .img {
-    border: 8px;
+    border: 4px;
     border-style: solid;
     border-color: #3882F6;
-    padding: 10px;;
+    border-radius: 16px;
+    padding: 5vw;;
 }
 
 .desc {
     text-align: center;
     text-wrap: wrap;
+    max-width: 10vw;
 }
