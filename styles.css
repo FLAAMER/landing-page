@@ -34,6 +34,11 @@ a {
     display: flex;
     flex-flow: column wrap;
     background-color: #1F2937;
+    padding: 4vw;
+    flex-grow: 0;
+    max-height: 20vh;
+    align-content: space-around;
+    gap: 8px;
 }
 
 .subhead {
@@ -45,8 +50,22 @@ a {
 .subheadcon {
     font-size: 18px;
     color: #F9FAF8;
+    flex-wrap: wrap;
+    max-width: 42vb;
 }
 
 button {
     max-width: fit-content;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+
+.placeholder {
+    background-color: grey;
+    color: #F9FAF8;
+    padding: 88px;
+    flex: 1 0 auto;
 }
