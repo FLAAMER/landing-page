@@ -50,7 +50,7 @@ a {
 
 .subheadcon {
     font-size: 18px;
-    color: #F9FAF8;
+    color: #E5E7EB;
     flex-wrap: wrap;
     max-width: 42vb;
 }
@@ -68,4 +68,45 @@ button {
     background-color: grey;
     color: #F9FAF8;
     padding: 88px;
+}
+
+.ranifo { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ranifo .subhead {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.imglist {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgdesc {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgdescdesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    border: 8px;
+    border-style: solid;
+    border-color: #3882F6;
+    padding: 10px;;
+}
+
+.desc {
+    text-align: center;
+    text-wrap: wrap;
 }
