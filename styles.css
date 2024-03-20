@@ -74,6 +74,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5vb;
+    padding-bottom: 10vb;
 }
 
 .ranifo .subhead {
@@ -81,6 +83,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 5vb;
 }
 
 .imglist {
@@ -117,10 +120,15 @@ button {
 
 .quotebg {
     display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 20vw;
 }
 
-.quotecite {
+.quocite {
     display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -131,5 +139,6 @@ button {
 }
 
 .cite {
-    
+    align-self: flex-end;
+    font-weight: bold;
 }
