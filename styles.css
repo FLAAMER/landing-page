@@ -152,6 +152,8 @@ button {
     display: flex;
     padding: 5vh 10vw;
     gap: 30vw;
+    background-color: #3882F6;
+    border-radius: 8px;
 }
 
 .ctadescdesc {
@@ -161,6 +163,18 @@ button {
 }
 
 .ctacont button {
-    max-height: 25px;
-    align-content: flex-end;
+    border-style: solid;
+    border-color: #F9FAF8;
+    align-self: center;
+    width: auto;
+    padding: 4px 32px;
+}
+
+.cta {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.ctadesc {
+    color: #F9FAF8;
 }
