@@ -153,7 +153,7 @@ button {
     padding: 5vh 10vw;
     gap: 30vw;
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .ctadescdesc {
@@ -164,6 +164,7 @@ button {
 
 .ctacont button {
     border-style: solid;
+    border-width: 2px;
     border-color: #F9FAF8;
     align-self: center;
     width: auto;
